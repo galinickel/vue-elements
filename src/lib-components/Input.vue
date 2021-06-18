@@ -14,6 +14,7 @@
 				transform: input.showInvalidMsg ? 'scaleY(1)' : 'scaleY(0)',
 				marginTop: '0',
 				transition: 'all .3s ease',
+				'margin-top':'5px'
 			}"
 		>
 			{{ userInput.invalidMsg }}
@@ -72,12 +73,12 @@ export default {
 	font-size: 22px;
 	position: absolute;
 	color: #23445a;
-	top: 5px;
+	top: -5px;
 	right: 15px;
 	transition: top 0.3s ease, right 0.3s ease, font-size 0.3s ease;
 }
 .my-input input:focus + .input-placeholder {
-	top: -15px;
+	top: -20px;
 	font-size: 14px;
 	font-weight: bold;
 }

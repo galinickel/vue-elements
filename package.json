@@ -1,6 +1,6 @@
 {
-   "name": "gali-package",
-  "version": "0.0.2",
+  "name": "gali-package",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/galis-package.ssr.js",
   "browser": "dist/galis-package.esm.js",

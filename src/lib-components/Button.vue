@@ -1,5 +1,5 @@
 <template>
-	<button :style="{ backgroundColor: color }" class="my-button">
+	<button :style="{ backgroundColor: color }" class="my-button" >
 		<p>
 			<img
 				:style="{ visibility: isLoading ? 'visible' : 'hidden' }"
@@ -40,7 +40,7 @@ export default {
 }
 .my-button p {
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 0;
 	line-height: 20px;
