@@ -1,5 +1,6 @@
 # Gali's Package
 A library of Vue-js elements, made as practice to be used in a project.
+https://www.npmjs.com/package/gali-package
 
 ## List of Elements:
 * ### Input
